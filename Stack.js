@@ -11,7 +11,7 @@ class Stack {
 
   pop() {
     if(this.top === null) {
-      return new _Node('Nothing to pop...', null)
+      return this.top
     }
 
     const node = this.top
